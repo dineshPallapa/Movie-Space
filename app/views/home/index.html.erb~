@@ -1,0 +1,51 @@
+<section class="container-fuild movie-category">
+
+  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="mov-action animate" >Action Movies
+      <div class="open-movie">
+        <a href="action.html">click Here</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="mov-horror animate " >Horror Movies
+      <div class="open-movie">
+        <a href="action.html">click Here</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="mov-comedy animate" >Comedy Movies
+      <div class="open-movie">
+        <a href="action.html">click Here</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="mov-thriller animate" >Thriller Movies
+      <div class="open-movie">
+        <a href="action.html">click Here</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+<section>
+  <div class="mov-games">
+    <div class="games"><a href="games.html">Games</a></div>
+  </div>
+</section>
+
+  <div class="new-events">
+    <marquee direction="left" >
+      <p style="color:white;font-family:  Comic Sans MS;">Enjoy New Movies....</p>
+      <a href="log.html" target="_blank"><img src="sardar.jpg"  width="100px" height="100px" > </a> 
+      <a href="" target="_blank"><img src="sardar.jpg" width="100px" height="100px"></a> 
+      <a href="" target="_blank"><img src="sardar.jpg" width="100px" height="100px"></a>
+    </marquee>
+  </div>
+
+

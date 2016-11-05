@@ -1,0 +1,110 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+  .container {
+      /*border: 2px solid red;*/
+
+    .movie-category {
+      /*display: inline-block;*/
+      margin: 0px;
+      margin-top: 15px; 
+      float: left;
+
+      a {
+        font-family:Trebuchet MS ;
+        font-size: 10px;
+        margin-top: 15px;
+        }
+      
+      .animate {
+        height: 200px;
+        width:200px;
+        margin:10px 50px;
+        border-radius:15px;
+        text-align:center;
+        font-family:  Comic Sans MS;
+        font-size:40px;
+        text-align:center;
+        opacity:0.6;
+        transition-property: background, border-radius;
+        transition-duration: 2s, 1s;
+        transition-timing-function: linear, ease-in;      
+      }
+      .animate:hover {
+        border-radius: 40%;
+      }
+      .animate a {
+        font-size: 30px;
+
+      }
+      .mov-action {
+        background-color:coral;
+      }
+      .mov-horror{
+        background-color:red;
+      }
+      .mov-comedy{
+        background-color:aqua;
+      }
+      .mov-thriller {
+        background-color:orange;
+      }
+      
+    }
+    }
+    .mov-games {
+      margin-top:20px;
+      width: 200px;
+      height: 60px;
+      text-align: center;
+      background-color: #003333;
+      border-radius:30%;
+      margin-left:45%;
+      opacity:0.85;
+      .games a{
+        font-family:blade;
+        font-size: 40px;
+      }
+    }
+
+    @media only screen and (max-width : 480px) {
+      .mov-action,.mov-horror,.mov-comedy,.mov-thriller {
+        margin-left: 15%;
+      }
+    }
+
+    @media only screen and (max-width : 480px) {
+      .mov-games {
+            margin-left:22%;
+          }
+        }
+
+    @media all and (max-width:767px) and (min-width: 481px) {
+      #mov-action,#mov-horror,#mov-comedy,#mov-thriller {
+        margin-left: 30%;
+      } 
+    }
+
+    @media all and (max-width:767px) and (min-width: 481px) {
+      .mov-games  {
+        margin-left:30%;
+      } 
+    }
+  
+    @media all and (max-width: 992px) and (min-width: 768px) {
+      .mov-games  {
+        margin-left:35%;
+      } 
+    }
+
+
+    
+
+      
+        
+      .new-events {
+        margin:10px;
+      }
+    
